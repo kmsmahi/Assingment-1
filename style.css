@@ -234,3 +234,89 @@ background: rgba(77, 71, 255, 0.158);
 padding: 50px 80px 50px 80px;
 margin:0 0 0 300px;
 }
+.card{
+display: flex;
+gap: 100px;
+}
+.design{
+width: 1140px;
+height: 342px;
+margin: 90px 209px;
+padding: 50px 80px 50px 80px;
+}
+.des-h{
+width: 1140px;
+height: 49px;
+color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 42px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 50px;
+}
+.c1{
+width: 366.67px;
+height: 213px;
+box-sizing: border-box;
+border: none;
+border-radius: 14px;
+background: rgba(206, 156, 173, 0.226);
+padding: 20px;
+}
+.c1-h3{
+margin: 10px 0;
+}
+.c1-p{
+margin: 10px 0;
+}
+.better{
+border-radius: 14px;
+background: rgb(255, 255, 255);
+width: 1140px;
+height: 642px;
+margin: 90px 150px 90px 280px;
+padding: 50px 80px 50px 80px;
+}
+.better-h2{
+width: 516px;
+height: 60px;
+color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 50px;
+font-weight: 700;
+justify-content: center;
+align-items: center;
+text-align: left;
+margin: 51px 312px 20px 312px;
+}
+.better-p{
+width: 487px;
+height: 22px;
+/* Body Base */
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+margin: 0 326px 20px 326px;
+}
+.better-btn{
+width: 195px;
+height: 48px;
+box-sizing: border-box;
+border-radius: 10px;
+background: blueviolet;
+margin: 0 472px 20px 432px;
+}
+.better-btn span{
+width: 157px;
+height: 24px;
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+}
+.better img{
+margin: 0 150px 71px 150px;
+}
