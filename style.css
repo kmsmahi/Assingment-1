@@ -6,7 +6,6 @@
 width: 17000px;
 height: 598px;
 background-image: url('Assets/Hero-bg.png');
-/* background: rgba(78, 71, 255, 0.01); */
 }
 .logo{
 width: 99px;
@@ -76,8 +75,6 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-/* gap: 37; */
-/* padding: 0px; */
 flex: none;
 order: 0;
 align-self: stretch;
@@ -94,7 +91,6 @@ text-align: center;
 width: 174px;
 height: 48px;
 padding: 12px 36px 12px 36px;
-/* margin: 0px 16px; */
 border-radius: 10px;
 border: none;
 background-color: blueviolet;
@@ -117,7 +113,6 @@ padding: 0px;
 flex: none;
 order: 1;
 flex-grow: 0;
-/* margin: 158px 0px; */
 margin: 0 137px;
 }
 .main-sec{
@@ -182,7 +177,8 @@ border-radius: 50px;
 }
 
 main{
-    background-color:#ece9e694;
+    /* background-color:#ece9e694; */
+    background-color: rgb(245,248,255);
 }
 .prod-h1{
 width: 162px;
@@ -319,4 +315,81 @@ text-align: center;
 }
 .better img{
 margin: 0 150px 71px 150px;
+}
+.touch-h1{
+width: 650px;
+height: 232px;
+color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 97px;
+font-weight: 700;
+text-align: left;
+margin: 202px 190px 250px 250px;
+}
+.touch{
+display: flex;
+/* gap: 95px; */
+}
+.tc-form{
+width: 497px;
+height: 490px;
+margin: 0 71px 150px 71px;
+}
+.lab-p{
+width: 497px;
+height: 22px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+#f1{    
+width: 470px;
+height: 50px;
+box-sizing: border-box;
+border: 1px solid rgb(214, 221, 237);
+border-radius: 10px;
+background: rgb(255, 255, 255);
+margin: 10px 0;
+}
+#f2{
+width: 470px;
+height: 50px;
+box-sizing: border-box;
+border: 1px solid rgb(214, 221, 237);
+border-radius: 10px;
+background: rgb(255, 255, 255);
+margin: 10px 0;
+}
+#ta{
+width: 470px;
+height: 135px;
+box-sizing: border-box;
+border: 1px solid rgb(214, 221, 237);
+border-radius: 10px;
+background: rgb(255, 255, 255);
+margin: 10px 0;
+}
+.lab-btn{
+width: 497px;
+height: 62px;
+border-radius: 10px;
+background-color: blueviolet;
+margin: 10px 0;
+border: none;
+}
+form button span{
+width: 95px;
+height: 24px;
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+}
+.tc-form{
+margin: 95px 0;
 }
