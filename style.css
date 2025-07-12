@@ -3,7 +3,7 @@
     margin: 0;
 }
 .hero{
-width: 17000px;
+width: 1700px;
 height: 598px;
 background-image: url('Assets/Hero-bg.png');
 }
@@ -180,6 +180,7 @@ border-radius: 50px;
 main{
     /* background-color:#ece9e694; */
     background-color: rgb(245,248,255);
+    width: 1700px;
 }
 .prod-h1{
 width: 162px;
