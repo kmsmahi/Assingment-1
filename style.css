@@ -12,13 +12,12 @@ width: 99px;
 height: 51px;
 color: blueviolet;
 font-family: Inter;
-font-size: 34px;
+font-size: 44px;
 font-weight: 900;
-line-height: 150%;
-letter-spacing: 0%;
 text-align: left;
-padding-left: 110px;
-margin-right: 10px;
+/* padding-left: 110px; */
+/* margin-right: 10px; */
+margin: 0 300px;
 
 }
 .sup{
@@ -28,15 +27,16 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-gap: 10;
-padding: 12px 36px 12px 36px;
-flex: none;
+/* gap: 10; */
+/* padding: 12px 36px 12px 36px; */
+/* flex: none;
 order: 0;
 flex-grow: 0;
-margin: 0px 16px;
+margin: 0px 16px; */
 border-radius: 10px;
 border: none;
 background-color: blueviolet;
+margin: 0 550px;
 }
 nav{
 width: 1140px;
@@ -48,7 +48,7 @@ align-items: center;
 gap: 30px;
 }
 nav button span{
-width: 60px;
+width: 65px;
 height: 24px;
 display: flex;
 flex-direction: row;
@@ -62,7 +62,7 @@ flex-grow: 0;
 margin: 0px 10px;
 color: rgb(255, 255, 255);
 font-family: Raleway;
-font-size: 16px;
+font-size: 18px;
 font-weight: 700;
 line-height: 150%;
 letter-spacing: 0%;
@@ -108,12 +108,13 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-gap: 37;
+/* gap: 37;
 padding: 0px;
 flex: none;
 order: 1;
 flex-grow: 0;
-margin: 0 137px;
+margin: 0 137px; */
+margin: 0 375px;
 }
 .main-sec{
 display: flex;
@@ -392,4 +393,53 @@ text-align: center;
 }
 .tc-form{
 margin: 95px 0;
+}
+.foot{
+width: 1440px;
+height: 428px;
+box-sizing: border-box;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+background: rgb(255, 255, 255);
+}
+.kms{
+width: 531px;
+height: 177px;
+}
+.li-1{
+width: 401px;
+height: 24px;
+display: flex;
+list-style: none;
+gap: 50px;
+margin: 0 705px 103px 565px;
+}
+.kms-1{
+width: 391px;
+height: 121px;
+color: blueviolet;
+font-family: Inter;
+font-size: 100px;
+font-weight: 900;
+text-align: center;
+margin: 104px 775px 8px 570px;
+}
+.kms-p{
+width: 490px;
+height: 48px;
+color: rgb(137, 135, 161);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin: 0 775px 20px 525px;
+}
+ul li span{
+width: 100px;
+height: 24px;
+/* Paragraph */
+color: rgb(137, 135, 161);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
 }
